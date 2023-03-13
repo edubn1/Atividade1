@@ -1,0 +1,12 @@
+<div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label" >Usuario</label>
+    <input [(ngModel)]="user" type="string" class="form-control" >
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label" >Senha</label>
+    <input  [(ngModel)]="senha" type="password" class="form-control" id="exampleFormControlInput1" >
+
+  </div>
+<div>
+  <button type="button" (click)="verifica()" class="btn btn-primary">Entrar</button>
+</div>
